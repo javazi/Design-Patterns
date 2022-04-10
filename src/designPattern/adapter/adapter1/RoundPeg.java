@@ -1,4 +1,4 @@
-package designPattern.adapter1;
+package designPattern.adapter.adapter1;
 
 public class RoundPeg {
     private int radius;
@@ -12,7 +12,4 @@ public class RoundPeg {
         return radius;
     }
 
-  /*  public void setRadius(int radius) {
-        this.radius = radius;
-    }*/
 }

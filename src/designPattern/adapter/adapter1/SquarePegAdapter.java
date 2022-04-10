@@ -1,4 +1,4 @@
-package designPattern.adapter1;
+package designPattern.adapter.adapter1;
 
 public class SquarePegAdapter extends RoundPeg{
     private SquarePeg peg;
@@ -6,7 +6,6 @@ public class SquarePegAdapter extends RoundPeg{
     public SquarePegAdapter(SquarePeg peg) {
         this.peg = peg;
     }
-
 
     public double getRadius(){
         return peg.getWidth() * Math.sqrt(2) / 2;
